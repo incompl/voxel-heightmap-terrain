@@ -2,6 +2,8 @@
 
 generate voxel terrain using a png heightmap
 
+![example](example.png)
+
 this is designed to work out of the box with [voxel-engine](https://npmjs.org/package/voxel-engine)
 
 ## heightmaps
