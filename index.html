@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <title>Voxel Engine</title>
+    <meta charset="utf-8">
+    <style type="text/css">
+      body {
+        font-family: Monospace;
+        font-size: 12px;
+        background-color: #f0f0f0;
+        margin: 0px;
+        overflow: hidden;
+      }
+      #container {
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        user-select: none;
+      }
+      #stats { bottom: 0px; right: 0px; }
+      .bar-tab { right: 33% !important; left: 33% !important; }
+      .logo {position: absolute; top: 5px; left: 5px; }
+      .tally { position: absolute !important; top: 5px; right: 5px; }
+      .errorMessage { text-align: center; width: 200px; margin: 20px auto; }
+    </style>
+  </head>
+  <body>
+<!--     <a class="button tally">Blocks collected<span class="count">0</span></a> -->
+    <div id="container"></div>
+    <nav class="bar-tab" id="tools" >
+      <ul class="tab-inner">
+        <li class="tab-item active">
+          <img class="tab-icon" src="textures/height0.png">
+          <div class="tab-label">height0</div>
+        </li>
+        <li class="tab-item">
+          <img class="tab-icon" src="textures/height2.png">
+          <div class="tab-label">height2</div>
+        </li>
+        <li class="tab-item">
+          <img class="tab-icon" src="textures/height5.png">
+          <div class="tab-label">height5</div>
+        </li>
+        <li class="tab-item">
+          <img class="tab-icon" src="textures/height7.png">
+          <div class="tab-label">height7</div>
+        </li>
+        <li class="tab-item">
+          <img class="tab-icon" src="textures/height9.png">
+          <div class="tab-label">height9</div>
+        </li>
+      </ul>
+    </nav>
+    <script type="text/javascript" src="browserify-bundle.js"></script>
+  </body>
+</html>

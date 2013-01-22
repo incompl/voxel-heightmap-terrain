@@ -1,0 +1,31 @@
+{
+    "name" : "voxel-heightmap-terrain",
+    "version" : "0.0.1",
+    "description" : "generate voxel terrain using a png heightmap",
+    "main" : "index.js",
+    "dependencies" : {
+      "voxel": "0.0.9"
+    },
+    "devDependencies" : {
+        "browserify" : "~1.17.1",
+        "voxel-engine" : "0.1.9",
+        "three": "0.54.5-dev"
+    },
+    "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/incompl/voxel-heightmap-terrain.git"
+    },
+    "homepage" : "https://github.com/incompl/voxel-heightmap-terrain",
+    "keywords" : [
+        "voxel",
+        "game",
+        "webgl",
+        "three.js"
+    ],
+    "author" : {
+        "name" : "Greg Smith",
+        "email" : "gsmith@incompl.com",
+        "url" : "http://incompl.com"
+    },
+    "license" : "MIT"
+}
