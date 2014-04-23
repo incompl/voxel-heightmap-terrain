@@ -16,7 +16,8 @@
         "collide-3d-tilemap": "0.0.1",
         "aabb-3d": "0.0.0",
         "pngjs": "0.4.0-alpha",
-        "dreamopt": "0.8.0"
+        "dreamopt": "0.8.0",
+        "minecraft-skin": "0.1.2"
     },
     "devDependencies" : {
         "browserify" : "~1.17.1",
