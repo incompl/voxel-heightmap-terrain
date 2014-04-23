@@ -1,4 +1,4 @@
-var createGame = require('../lib/game')
+var createGame = require('voxel-engine')
 var THREE = require('three')
 var voxel = require('voxel')
 var toolbar = require('toolbar')
